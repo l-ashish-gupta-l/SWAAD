@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeBg from "../assets/HomeBg.jpg"
 import Mainherobg from "../assets/Mainherobg.png"
-import ReactCurvedText from 'react-curved-text';
+
 
 function Mainbtn() {
     return (
