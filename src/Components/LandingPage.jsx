@@ -4,10 +4,10 @@ import Mainherobg from "../assets/Mainherobg.png"
 import { TypeAnimation } from 'react-type-animation';
 
 
-function Mainbtn() {
+function Mainbtn({ Text }) {
     return (
-        <button className='px-8 py-2 bg-[#282725] text-white mt-5'>
-            Authentic experience
+        <button className='px-8 py-2 font-["Bebas"] bg-[#282725] text-white mt-5'>
+            {Text}
         </button>
     )
 }
@@ -37,7 +37,7 @@ function LandingPage() {
                             repeat={Infinity}
                             cursor={false}
                         />
-                        <Mainbtn />
+                        <Mainbtn Text={"Authentic experience"} />
                     </div>
                 </div>
                 <div className='circle absolute right-0 top-[70%] w-[150px] h-[150px] bg-[#DADADA] rounded-full '>
@@ -57,3 +57,4 @@ function LandingPage() {
 }
 
 export default LandingPage
+export { Mainbtn }
