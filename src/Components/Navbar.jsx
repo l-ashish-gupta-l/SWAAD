@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import LOGO from "../assets/LOGO.png"
 function Navbar() {
+
+
     return (
-        <div className='fixed  z-50 text-white w-full flex px-12 font-["Bebas"] justify-between'>
-            <div className='Logo '>
-                <img src={LOGO} alt='LOGO' className='w-[8vw]' />
+        <div className='fixed  stroke-black  z-50 text-white w-full flex px-12 font-["Bebas"] justify-between'>
+            <div className='Logo'>
+                <img src={LOGO} alt='LOGO' className='w-[5vw]' />
             </div>
-            <div className='links flex justify-center items-center gap-16'>
+            <div className='links flex justify-center items-center gap-16 '>
                 {["Home", "Menu", "Gallery", "Blog", "Contact"].map((item, index) => {
                     return (
-                        <a className=' text-xl' key={index} href={`#${item}`}>
+                        <a className=' text-white  text-xl ' key={index} href={`#${item}`}>
                             {item}
                         </a>
                     )

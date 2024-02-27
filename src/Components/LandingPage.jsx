@@ -2,6 +2,7 @@ import React from 'react'
 import HomeBg from "../assets/HomeBg.jpg"
 import Mainherobg from "../assets/Mainherobg.png"
 import { TypeAnimation } from 'react-type-animation';
+import Navbar from './Navbar';
 
 
 function Mainbtn({ Text }) {
