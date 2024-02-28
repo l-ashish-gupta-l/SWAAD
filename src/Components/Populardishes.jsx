@@ -8,8 +8,8 @@ import { GoDotFill } from "react-icons/go";
 
 function Populardishes() {
   return (
-    <div className='w-full h-[70vh]  flex  flex-col  items-center'>
-      <div className=''>
+    <div className='w-full flex  flex-col  items-center'>
+      <div>
         <p className='font-bold uppercase text-[#D51F0F] text-center'>- Specials choice -</p>
         <h1 className='font-["Bebas"] text-[#383632] text-[5vw] leading-none '>Popular dishes</h1>
       </div>
